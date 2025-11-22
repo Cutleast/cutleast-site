@@ -105,7 +105,7 @@ header,
 }
 
 .project-section p {
-    max-width: 80vw;
+    max-width: min(800px, 80vw);
     border-bottom: 3px solid var(--primary-accent-color);
 }
 
