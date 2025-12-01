@@ -106,7 +106,8 @@ header,
 
 .project-section p {
     max-width: min(800px, 80vw);
-    border-bottom: 3px solid var(--primary-accent-color);
+    padding-left: 10px;
+    border-left: 3px solid var(--primary-accent-color);
 }
 
 .project-section#sse-at-section {
@@ -161,12 +162,6 @@ header,
     header>h1>img,
     .project-section>h2>img {
         max-width: 80vw;
-    }
-
-    .project-section p {
-        border-bottom: 0;
-        border-left: 3px solid var(--primary-accent-color);
-        padding-left: 5px;
     }
 }
 
